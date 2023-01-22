@@ -53,7 +53,7 @@ const HeroSection = ({ isMenuShown }) => {
         className={`p-8 flex flex-col items-center justify-center duration-500 w-full ${isVideoPlaying ? "" : "bg-black/80"
           } ${isMenuShown ? "opacity-20" : "opacity-100"}`}
       >
-        <h1 className="text-2xl lg:text-2xl text-thBlue">DeVerse Presents</h1>
+        <h1 className="text-2xl lg:text-2xl text-gray-500">DeVerse Presents</h1>
         <h1 className="text-5xl lg:text-7xl py-3 font-bold tracking-wider">Hackenosia</h1>
         <h1 className="text-3xl lg:text-5xl capitalize mb-12">
           A 24 hours
