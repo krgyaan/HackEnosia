@@ -10,18 +10,18 @@ const Prizes = () => {
             id: 1,
             icon: <img src={first} alt="firstPrize" className="h-32" />,
             title: "First Prize",
-            subtitle: "The first-place team will receive a cash prize of ₹25,000 and a selection of goodies and swags, including T-shirts.",
+            subtitle: "The first-place team will receive a cash prize of ₹20,000 and a selection of goodies and swags, including T-shirts.",
         },
         {
             id: 2,
             icon: <img src={second} alt="secondPrize" className="h-32" />,
             title: "Second Prize",
-            subtitle: "The first-place team will receive a cash prize of ₹15,000 and a selection of goodies and swags, including T-shirts.",
+            subtitle: "The first-place team will receive a cash prize of ₹10,000 and a selection of goodies and swags, including T-shirts.",
         },
         {
             id: 3,
             icon: <img src={third} alt="thirdPrize" className="h-32" />,
-            title: "Third Prize",
+            title: "Special Prize",
             subtitle: "The first-place team will receive a cash prize of ₹5,000 and a selection of goodies and swags, including T-shirts.",
         },
     ];
